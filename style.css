@@ -1,0 +1,44 @@
+/* default font, color and size */
+body {
+    color: #333333;
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+article {
+    padding: 10px;
+}
+
+article > p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.page-footer {
+    text-align: center;
+}
+
+@media (min-width: 1280px) {
+  body {
+    font-size: 1.5em;
+  }
+  main {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
